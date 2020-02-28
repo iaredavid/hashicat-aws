@@ -1,6 +1,6 @@
 # tf config for gaurav's vpc
 module "vpc-dba" {
-  source = "terraform-aws-modules/vpc/aws"
+  source = "terraform-aws-vpc"
 
   name = "vpc-dba"
   cidr = "10.0.0.0/16"
